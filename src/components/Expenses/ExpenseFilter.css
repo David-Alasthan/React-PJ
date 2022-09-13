@@ -2,14 +2,18 @@
     color: white;
     padding: 0 2rem;
     border-radius: 1rem;
+    justify-content: space-between;
 }
 
 .expenses-filter__control {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 1rem 0;
+    flex: 1;
+
+   
 }
 
 .expenses-filter label {
